@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Hello',
   description: 'Just playing around',
-  base: 'src',  
+  base: 'vuepress',  
   dest: 'docs'
 }
