@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Hello',
-  description: 'Just playing around',
+  title: 'this is title in config.js',
+  description: 'this is desc in config.js',
   base: '/vuepress/',  
   dest: 'docs',
   locales: {
