@@ -1,0 +1,10 @@
+{
+  "name": "vuepress_demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
