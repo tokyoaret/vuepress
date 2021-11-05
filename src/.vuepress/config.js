@@ -1,7 +1,7 @@
 module.exports = {
   title: 'this is title in config.js',
   description: 'this is desc in config.js',
-  base: '/vuepress/',  
+  base: '/tokyoaret/vuepress/',  
   dest: 'docs/',
   locales: {
     '/': {
@@ -18,9 +18,8 @@ module.exports = {
   head: [
     ['meta', {'http-equiv': 'X-UA-Compatible', content: 'IE=edge'}],
     ['meta', {name: 'keywords', content: 'hoge,fuga,piyo'}],
-    ['script', { type: 'text/javascript' }, `
-    alert("welcome");
-`]],
+    ['script', { type: 'text/javascript' }, `alert("welcome");`]
+  ],
   plugins: {
         '@vuepress/google-analytics': {
             'ga': 'UA-212117744-1'
