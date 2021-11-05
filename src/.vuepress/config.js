@@ -17,7 +17,7 @@ module.exports = {
   },
   head: [
     ['meta', {'http-equiv': 'X-UA-Compatible', content: 'IE=edge'}],
-    ['meta', {name: 'keywords', content: 'hoge,fuga,piyo'}],
+    ['meta', {name: 'google-site-verification', content: 'VKeUkYfsK9JpkKHjzvKu0fcTn7SdQO1DSrAhSHskzsc'}],
     ['script', { type: 'text/javascript' }, `alert("welcome");`]
   ],
   plugins: {
