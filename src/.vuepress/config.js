@@ -1,7 +1,7 @@
 module.exports = {
   title: 'this is title in config.js',
   description: 'this is desc in config.js',
-  base: '/tokyoaret/vuepress/',  
+  base: '/vuepress/',  
   dest: 'docs/',
   locales: {
     '/': {
