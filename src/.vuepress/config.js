@@ -5,11 +5,21 @@ module.exports = {
   dest: 'docs',
   locales: {
     '/': {
-      lang: 'ja'
+        lang: 'ja',
+        title: 'はじめてのVuePress',
+        description: 'description jp',
+    },
+    '/en/': {
+        lang: 'en',
+        title: 'hello VuePress',
+        description: 'this site generated from VuePress.',
     }
   },
-  meta: [
-    { charset: 'utf-8' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-  ]
+  head: [
+    ['meta', {'http-equiv': 'X-UA-Compatible', content: 'IE=edge'}],
+    ['meta', {name: 'keywords', content: 'hoge,fuga,piyo'}],
+    ['script', { type: 'text/javascript' }, `
+    alert("welcome");
+`]
+]
 }
