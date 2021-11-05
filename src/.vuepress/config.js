@@ -2,7 +2,7 @@ module.exports = {
   title: 'this is title in config.js',
   description: 'this is desc in config.js',
   base: '/vuepress/',  
-  dest: 'docs',
+  dest: 'docs/',
   locales: {
     '/': {
         lang: 'ja',
