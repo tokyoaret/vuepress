@@ -21,5 +21,10 @@ module.exports = {
     ['script', { type: 'text/javascript' }, `
     alert("welcome");
 `]
+  plugins: {
+        '@vuepress/google-analytics': {
+            'ga': 'UA-212117744-1'
+        }
+    },
 ]
 }
